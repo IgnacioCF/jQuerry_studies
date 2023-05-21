@@ -1,0 +1,62 @@
+body {
+    background-color: aquamarine;
+}
+h1{
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.big-title{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(121, 30, 30);
+}
+
+.big-title2{
+    font-size: 50px;
+    font-family: inspiration;
+    font-weight: bold;
+
+}
+
+.big-title3{
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.shadow{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: rgb(216, 182, 89);
+    margin: 0.5% 0% 0% 30%;
+    position: absolute;
+}
+.ultimo{
+    color: blueviolet;
+}
+.big-title4{
+    text-transform: uppercase;
+   background-image: linear-gradient(
+     -225deg,
+     #231557 0%,
+     #44107a 29%,
+     #ff1361 67%,
+     #fff800 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 50% auto;
+   color: #fff;
+   background-clip: text;
+   text-fill-color: transparent;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+   display: inline-block;
+       font-size: 50px;
+ }
+ 
+ @keyframes textclip {
+   to {
+     background-position: 200% center;
+   }
+ }
